@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  padding: 0px;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Caslon";
+    font-size: xx-large;
+    margin-bottom: 40px;
+  }
+  button {
+    border: none;
+    background-color: white;
+  }
+}
+
+.signIn {
+  font-family: "Caslon";
+  font-size: small;
+}
+
+.signUp {
+  font-family: "Caslon";
+  font-size: small;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+.container {
+  padding-top: 250px;
+  margin-top: -200px;
+  margin-bottom: 50px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: black;
+  justify-content: space-evenly;
+  margin-left: 0px;
+}

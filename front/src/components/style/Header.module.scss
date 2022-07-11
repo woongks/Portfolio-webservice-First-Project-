@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+Link {
+  color: black;
+}
+
+.topline {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.logoutContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.logout {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Caslon";
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Caslon";
+  font-size: 55px;
+}
+
+.list1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  margin-top: 30px;
+  font-family: "Caslon";
+  font-weight: bold;
+}
+
+.list1 a + a {
+  margin-left: 20px;
+}
+
+.My {
+  text-decoration: none;
+  color: black !important;
+
+  &.active {
+    border-bottom: 3px solid black;
+  }
+}
+
+.My::after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.My:hover::after {
+  transform: scaleX(1);
+  color: black;
+}
+
+.Net {
+  text-decoration: none;
+  color: black;
+
+  color: black !important;
+
+  &.active {
+    border-bottom: 3px solid black;
+  }
+}
+
+.Net::after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.Net:hover::after {
+  transform: scaleX(1);
+}
+
+.Board {
+  text-decoration: none;
+  color: black;
+
+  color: black !important;
+
+  &.active {
+    border-bottom: 3px solid black;
+  }
+}
+
+.Board::after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.Board:hover::after {
+  transform: scaleX(1);
+}
+
+.middleline {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.18);
+  left: 0;
+  top: 0;
+  padding-bottom: 0px;
+  margin-bottom: 2px;
+}
+
+.bottomline {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.18);
+  left: 0;
+  top: 0;
+}

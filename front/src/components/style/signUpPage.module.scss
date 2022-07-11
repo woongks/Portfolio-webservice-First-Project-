@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+body {
+  margin: 0;
+  font-family: "Caslon";
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+label {
+  border: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.2px;
+  padding: 1px;
+  // font
+}
+
+.signInContainer {
+  border: solid 0.2px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+  .xBtn {
+    text-decoration: none;
+    position: relative;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1 {
+    margin-bottom: 50px;
+    font-family: "bourbon";
+  }
+  button {
+    border: none;
+    background-color: white;
+  }
+}
+a:hover {
+  color: black;
+}
+form {
+  padding-left: 20px;
+  width: 80%;
+}
+
+.a {
+  padding: left 100%;
+  text-decoration: none;
+  color: black;
+  // border: solid;
+  // border-left-width: 0.2px;
+  // border-right-width: 0.2px;
+  // border-top-width: 0.2px;
+  // border-bottom-width: 0.2px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.signInput {
+  // border: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.2px;
+}
+
+.alarm {
+  height: 2px;
+  width: 400px;
+  font-size: 0.7rem;
+}
+
+.btnDiv {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.line {
+  border: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.2px;
+  width: 90%;
+  margin-bottom: 20px;
+}

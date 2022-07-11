@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+.ucContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.ucBox {
+  position: relative;
+  width: 300px !important;
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.2px;
+  background-color: black;
+  padding: 3px;
+
+  p {
+    color: white;
+  }
+  transition: transform 0.4s linear;
+}
+
+.ucEdBox {
+  position: relative;
+  width: 250px !important;
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 0.2px;
+  background-color: black;
+  padding: 3px;
+
+  p {
+    color: white;
+  }
+  transition: transform 0.4s linear;
+}
+
+.ucBtnBox {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  button {
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.ucName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.ucIcon {
+  font-size: 0.8em;
+}
+
+.ucEdit {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    text-shadow: 0 0 5px #fff;
+  }
+}
+
+.ucEditDanger {
+  text-decoration: none;
+  color: rgb(80, 76, 76) !important;
+  &:hover {
+    text-shadow: 0 0 5px gray;
+  }
+}
+
+.ucPw {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    text-shadow: 0 0 5px #fff;
+  }
+}
+.usInput {
+  border: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.2px;
+  border-color: gray;
+
+  background-color: black;
+  color: gray;
+}
+.pwAlert {
+  font-size: 0.7em;
+}

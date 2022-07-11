@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+.mvpContainer {
+  position: relative;
+  display: flex;
+  //   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px;
+
+  border: solid;
+  border-left-width: 2px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0px;
+  padding: 20px;
+
+  .mvpContaineritle {
+    display: block;
+    position: absoulte;
+    top: 20px;
+    left: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+  }
+}
+.mvpTitle {
+  font-size: 1.2em;
+  border: solid;
+  border-left-width: 0px;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0.2px;
+}
+.mvpDate {
+  font-size: 0.75em;
+}
+.mvpBox {
+  border-style: solid;
+  border: 2px;
+  border-color: black;
+}
+
+.mvpBtn {
+  //   position: absolute;
+  border: none;
+  background-color: transparent;
+  color: black;
+  margin-top: 20px;
+  &:hover {
+    text-shadow: 0 0 5px black;
+  }
+}
+
+.mvpBtnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mvpPlusBtn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 2em;
+}

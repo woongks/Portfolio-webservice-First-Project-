@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "sandol";
+  src: url(AppleSDGothicNeoL.ttf);
+  font-family: "Caslon";
+  src: url(CaslonOldFaceHeavyRegular.otf);
+}
+* {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Caslon", "sandol";
+}
+
+.text {
+  /* position: absolute; */
+  bottom: 0;
+
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+
+  margin-top: 5px;
+  font-family: "Caslon";
+  font-weight: bold;
+}
