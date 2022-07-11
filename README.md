@@ -34,7 +34,9 @@ yarn start
 2. 백엔드 서버 실행
 
 ```bash
-back 폴더 내부 README 참고
+cd back  
+yarn
+yarn start
 ```
 
 ---
